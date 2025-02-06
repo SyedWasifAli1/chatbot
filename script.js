@@ -19,7 +19,7 @@ function sendDropdownResults() {
 
 // Function to send a text message
 function sendMessage() {
-    fetchGeminiResponse("salam khan details");
+    // fetchGeminiResponse("salam khan details");
     const message = document.getElementById("messageInput").value;
     if (message) {
         displayMessage("User", message);
